@@ -4,7 +4,7 @@
 int ret= 0;
 void print_help();
 void print_version();
-int main(int argc, char const *argv[])
+int main(int argc, char *argv[])
 {
 	while((ret = getopt(argc,argv,"vh")) != -1)
 	{
